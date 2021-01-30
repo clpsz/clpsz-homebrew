@@ -1,6 +1,6 @@
 require "formula"
 
-class Clpsz < Formula
+class ClpszHello < Formula
   desc "clpsz personal tools"
   homepage "https://github.com/clpsz/homebrew-clpsz"
   url "https://github.com/clpsz/homebrew-clpsz/releases/download/v0.0.2/clpsz-0.0.2.tar.gz"
@@ -8,11 +8,11 @@ class Clpsz < Formula
   head "https://github.com/clpsz/homebrew-clpsz.git"
 
   def install
-    bin.install "clpsz"
+    bin.install "clpsz-hello"
   end
 
   # Homebrew requires tests.
   test do
-    system "#{bin}/clpsz"
+    system "#{bin}/clpsz-hello"
   end
 end

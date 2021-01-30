@@ -1,6 +1,6 @@
 require "formula"
 
-class Clpsz < Formula
+class ClpszHi < Formula
   desc "clpsz personal tools"
   homepage "https://github.com/clpsz/homebrew-clpsz"
   url "https://github.com/clpsz/homebrew-clpsz/releases/download/v0.0.2/clpsz-0.0.2.tar.gz"
